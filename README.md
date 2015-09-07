@@ -1,0 +1,1 @@
+A React + Redux app for organizing notes. Mostly being written to try out Redux.

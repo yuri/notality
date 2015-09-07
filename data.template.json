@@ -1,0 +1,22 @@
+{
+  "ordered": [
+    "ea512924-8264-4717-8787-dd1d11bf8d13",
+    "6c3a9db5-14a2-40e0-a99b-33f60a87f981"
+  ],
+  "byId": {
+    "ea512924-8264-4717-8787-dd1d11bf8d13": {
+      "id": "ea512924-8264-4717-8787-dd1d11bf8d13",
+      "title": "Foo",
+      "html": "Foo-<b>hoo</b>!",
+      "timeCreated": "2015-05-06T05:10:58.491Z",
+      "archived": false
+    },
+    "6c3a9db5-14a2-40e0-a99b-33f60a87f981": {
+      "id": "6c3a9db5-14a2-40e0-a99b-33f60a87f981",
+      "title": "Bar",
+      "html": "Bar-<i>ha</i>!",
+      "timeCreated": "2015-03-06T05:10:58.491Z",
+      "archived": true
+    }
+  }
+}

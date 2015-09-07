@@ -1,0 +1,50 @@
+.container {
+  display: flex; /* or inline-flex */
+}
+
+.collections {
+  width: 200px;
+}
+
+button {
+  cursor: hand;
+}
+
+.note-title {
+  font-weight: bold;
+  font-size: 140%;
+  color: red;
+}
+
+.collection {
+  width: 150px;
+  padding: 5px;
+  margin: 2px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  text-align: left;
+  font-size: 12pt;
+  cursor: hand;
+}
+
+.collection-alpha {
+  background-color: pink;
+}
+.collection-beta {
+  background-color: tan;
+}
+.collection-gamma {
+  background-color: ivory;
+}
+
+.note {
+  width: 400px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  display: block;
+  padding: 10px;
+}
+
+.collapsed {
+  display: none;
+}
