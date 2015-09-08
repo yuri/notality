@@ -18,7 +18,7 @@ class SearchBox extends Component {
   }
   render() {
     return (
-      <input onKeyUp={() => this.handleKeyUp()}></input>
+      <input className="note-search" onKeyUp={() => this.handleKeyUp()}></input>
     )
   }  
 }

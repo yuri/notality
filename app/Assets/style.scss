@@ -3,7 +3,39 @@
 }
 
 .collections {
-  width: 200px;
+  width: 15em;
+}
+
+.note-search {
+  padding:.5em;
+  border-radius: 4px;
+  width: 100%;
+}
+.note-header {
+  background-color: tan;
+  padding: .5em;
+}
+.note-toolbar {
+  background-color: gray;
+  padding: .5em;
+}
+
+.note-date-today {
+  color: green;
+}
+
+.content {
+  padding: .5em;
+  margin: 0;
+}
+
+.editor {
+  border: 2px solid #bbbbff;
+  border-radius: 4px;
+}
+
+.note-date-yesterday {
+  color: blue;
 }
 
 button {
@@ -17,9 +49,9 @@ button {
 }
 
 .collection {
-  width: 150px;
-  padding: 5px;
-  margin: 2px;
+  width: 90%;
+  padding: .5em;
+  margin: 0;
   border: 1px solid gray;
   border-radius: 10px;
   text-align: left;
@@ -37,14 +69,33 @@ button {
   background-color: ivory;
 }
 
+.righthand-side {
+  width: 80em;
+}
+
 .note {
-  width: 400px;
+  width: 100%;
   border: 1px solid gray;
   border-radius: 3px;
   display: block;
-  padding: 10px;
+  padding: 0;
+  margin: 0.2em;
 }
 
 .collapsed {
   display: none;
+}
+
+.content {
+  font-family: 'Lucida Sans Unicode', 'Lucida', sans-serif;
+}
+
+.content h1 {
+  color: #880000;
+  font-size: 1.4rem;
+}
+
+.content h2 {
+  color: #380000;
+  font-size: 1.2rem;
 }

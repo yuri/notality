@@ -4,8 +4,14 @@
   		<meta charset="UTF-8">
   		<meta name="viewport" content="width=device-width, initial-scale=1">
   		<title>{%=o.htmlWebpackPlugin.options.title%}</title>
+      <link rel="stylesheet" href="alloy-editor/assets/alloy-editor-moono.css"></style>
 	</head>
 	<body id='body'>
-    Hi
+    <script>
+      CKEDITOR_BASEPATH = 'http://localhost:5000/ckeditor/';
+      ALLOYEDITOR_BASEPATH = 'http://localhost:5000/alloy-editor/';
+    </script>
+    <script src="alloy-editor/alloy-editor-all.js"></script>
+    <script src="bundle.cf6081a99503e4e5e487.js"></script>
 	</body>
 </html>
