@@ -24,6 +24,7 @@
     "immutable": "^3.7.5",
     "isomorphic-fetch": "^2.1.1",
     "moment": "^2.10.6",
+    "mousetrap": "^1.5.3",
     "node-uuid": "^1.4.3",
     "react-redux": "^2.1.0",
     "redux": "^2.0.0",
@@ -31,8 +32,7 @@
     "redux-logger": "^1.0.6",
     "redux-thunk": "^0.1.0",
     "rx": "^3.1.2",
-    "scribe": "0.0.9",
-    "seamless-immutable": "^3.0.0"
+    "scribe": "0.0.9"
   },
   "devDependencies": {
     "autoprefixer-loader": "^2.0.0",
@@ -58,6 +58,7 @@
     "react": "^0.13.3",
     "react-favicon": "0.0.3",
     "react-hot-loader": "^1.2.7",
+    "redux-devtools": "^2.1.0",
     "sass-loader": "^1.0.2",
     "sinon": "^1.15.3",
     "style-loader": "^0.12.3",

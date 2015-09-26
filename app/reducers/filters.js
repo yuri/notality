@@ -3,7 +3,7 @@ import { createReducer } from './utils';
 import {
   VisibilityFilters,
   SET_VISIBILITY_FILTER
-} from '../actions';
+} from '../actions/filter-actions';
 
 export const filters = createReducer({
   [SET_VISIBILITY_FILTER]: (state, action) => state.set(

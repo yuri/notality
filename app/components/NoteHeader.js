@@ -57,11 +57,11 @@ export class NoteHeader extends Component {
   render() {
     return (
       <div className='note-header'>
-        <div
+        <span
           className={ 'note-date note-date-' + this.getDurationClass() }
           onClick={() => this.props.onClick()}>
           {this.getFormattedTime()}
-        </div>
+        </span>
       </div>
     );
   }

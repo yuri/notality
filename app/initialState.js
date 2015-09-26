@@ -7,6 +7,7 @@ export const initialState = {
   notes: fromJS({
     ordered: [
     ],
-    byId: {}
+    byId: {},
+    selectedNoteId: null
   })
 };
