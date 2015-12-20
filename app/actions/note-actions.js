@@ -37,6 +37,26 @@ export function fetchNotes(status, data) {
   }
 }
 
+function makeFetchNotesAction(status, data) {
+  return {
+    type: FETCH_NOTES,
+    payload: {
+      status: status,
+      data: data
+    }
+  };
+}
+
+export function fetchNotes() {
+  return dispatch => {
+    dispatch(makeFetchNotesAction('request'));
+    return fetchData()
+      .then(json => dispatch(makeFetchNotesAction('success', json)))
+      .then(null, error => dispatch(makeFetchNotesAction('error', error)));
+  };
+};
+
+
 export const selectNote = createAction(
   SELECT_NOTE,
   (noteId) => ({noteId})
