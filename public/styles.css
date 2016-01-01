@@ -1,0 +1,55 @@
+.note-search {
+  padding:.5em;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.note-meta-header {
+  display: flex;
+  width: 100%;
+}
+.note-header {
+  background-color: tan;
+  padding: .5em;
+  flex-grow: 2;
+}
+.note-toolbar {
+  background-color: gray;
+  padding: .5em;
+}
+
+.note-date-today {
+  color: green;
+}
+
+.editor {
+  border: 2px solid #bbbbff;
+  border-radius: 4px;
+}
+
+.note-date-yesterday {
+  color: blue;
+}
+
+.note-title {
+  font-weight: bold;
+  font-size: 140%;
+  color: red;
+}
+
+.note {
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 3px;
+  display: block;
+  padding: 0;
+  margin: 0.2em;
+}
+
+.selected-note {
+  border: 3px solid black !important;
+}
+
+.collapsed {
+  display: none;
+}

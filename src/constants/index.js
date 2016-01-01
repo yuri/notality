@@ -1,0 +1,28 @@
+export const INCREMENT_COUNTER = 'App/INCREMENT_COUNTER';
+export const DECREMENT_COUNTER = 'App/DECREMENT_COUNTER';
+
+export const LOGIN_USER_PENDING = 'App/LOGIN_USER_PENDING';
+export const LOGIN_USER_SUCCESS = 'App/LOGIN_USER_SUCCESS';
+export const LOGIN_USER_ERROR = 'App/LOGIN_USER_ERROR';
+
+export const LOGOUT_USER = 'App/LOGOUT_USER';
+export const FORM_RESET = 'redux-form/RESET';
+
+export const FETCH_STACKS = 'App/FETCH_STACKS';
+export const SHOW_NEW_STACK_FORM = 'App/SHOW_NEW_STACK_FORM';
+export const HIDE_NEW_STACK_FORM = 'App/HIDE_NEW_STACK_FORM';
+export const ADD_STACK = 'App/ADD_STACK';
+export const SELECT_STACK = 'App/SELECT_STACK';
+export const UNSELECT_STACK = 'App/SELECT_STACK';
+export const UPDATE_STACK_CONTENT = 'App/UPDATE_STACK_CONTENT';
+export const ARCHIVE_STACK = 'App/ARCHIVE_STACK';
+export const UNARCHIVE_STACK = 'App/UNARCHIVE_STACK';
+export const SET_NEW_STACK_NAME = 'App/SET_NEW_STACK_NAME';
+
+export const FETCH_NOTES = 'App/FETCH_NOTES';
+export const ADD_NOTE = 'App/ADD_NOTE';
+export const UPDATE_NOTE_CONTENT = 'App/UPDATE_NOTE_CONTENT';
+export const ARCHIVE_NOTE = 'App/ARCHIVE_NOTE';
+export const UNARCHIVE_NOTE = 'App/UNARCHIVE_NOTE';
+export const SELECT_NOTE = 'App/SELECT_NOTE';
+export const UNSELECT_NOTE = 'App/SELECT_NOTE';
