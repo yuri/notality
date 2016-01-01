@@ -14,7 +14,7 @@ app.enable('trust proxy');
 app.use(compression());
 app.use(bodyParser.json());
 
-var pathToDataFile = path.join(__dirname, '../data.json').toString();
+var pathToDataFile = path.join(__dirname, '../../data.json').toString();
 
 app.options('/api/notes', cors());
 app.get('/api/notes', cors(), function(req, res) {
