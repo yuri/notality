@@ -1,0 +1,40 @@
+{
+  "ordered": [
+    "08d99a2f-54d6-4c2c-8341-5d554f78bc91",
+    "097112e3-4e34-4a51-bd5a-0e257e3fe5ba",
+    "af9a91ea-1249-4889-a46f-18227c33225c",
+    "9db6dff3-cbc6-4750-9bb1-7af7f224feb7"
+  ],
+  "byId": {
+    "097112e3-4e34-4a51-bd5a-0e257e3fe5ba": {
+      "id": "097112e3-4e34-4a51-bd5a-0e257e3fe5ba",
+      "timeCreated": "2015-12-31T23:11:06.489Z",
+      "title": "Cthulhu",
+      "html": "Cthulhu <i>fhtagn</i>.",
+      "isArchived": true
+    },
+    "af9a91ea-1249-4889-a46f-18227c33225c": {
+      "id": "af9a91ea-1249-4889-a46f-18227c33225c",
+      "timeCreated": "2015-09-08T00:47:14.765Z",
+      "title": "Vel tortor",
+      "html": "<p>Nunc malesuada risus in pharetra dignissim. Donec lectus ante, vehicula sed volutpat sit amet, dictum vel urna. Nunc in leo sed tellus mollis aliquet eget eu quam. <i>Sed fringilla, velit ut consectetur dictum, erat ante ultrices felis, a vestibulum dolor nisl ac turpis.</i><br></p><ul><li>Praesent vel tortor nec elit porta feugiat in ut diam.</li><li>Donec sed est condimentum, lacinia magna sit amet, vulputate ex.</li></ul> Maecenas et odio pellentesque, dapibus lectus a, sagittis ligula.<p></p>",
+      "archived": false,
+      "isArchived": false
+    },
+    "9db6dff3-cbc6-4750-9bb1-7af7f224feb7": {
+      "id": "9db6dff3-cbc6-4750-9bb1-7af7f224feb7",
+      "timeCreated": "2015-12-31T23:11:04.216Z",
+      "title": "Aliquam non convallis",
+      "html": "Aenean <b>viverra</b> sed dui non convallis. Aliquam rhoncus pellentesque ante, sed congue enim. Morbi tincidunt, felis commodo facilisis iaculis, felis metus consectetur est, et lacinia metus dolor luctus ante. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "isArchived": false
+    },
+    "08d99a2f-54d6-4c2c-8341-5d554f78bc91": {
+      "id": "08d99a2f-54d6-4c2c-8341-5d554f78bc91",
+      "timeCreated": "2016-01-02T23:53:48.404Z",
+      "title": "Needs a title",
+      "html": "<p><b>Nam suscipit metus blandit tellus blandit pretium.</b></p><h2>Nam lobortis mi</h2><p>Sed est ultrices imperdiet. Fusce maximus purus dolor, in dictum nibh laoreet ac.</p>",
+      "isArchived": false
+    }
+  },
+  "selectedNoteId": "08d99a2f-54d6-4c2c-8341-5d554f78bc91"
+}

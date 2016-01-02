@@ -31,11 +31,11 @@ app.use(express.static('public'));
 app.use(bodyParser.json());
 
 app.options('/api/notes', cors());
-app.get('/api/notes', cors(), function(req, res) {
+app.get('/api/notes', cors(), (req, res) => {
   if (! fs.existsSync(pathToDataFile)) {
     res.send({
       ordered: [],
-      byId: {}
+      byId: {},
     });
   } else {
     const json = fs.readFileSync(pathToDataFile);
@@ -44,7 +44,7 @@ app.get('/api/notes', cors(), function(req, res) {
   }
 });
 
-app.post('/api/notes', cors(), function(req, res) {
+app.post('/api/notes', cors(), (req) => {
   const data = JSON.stringify(req.body, null, 2);
   fs.writeFileSync(pathToDataFile, data);
 });
