@@ -1,9 +1,6 @@
 import { createAction } from 'redux-actions';
 import { fetchData, saveData } from '../api/data';
 
-window.debug = window.debug || {};
-window.debug.noteActions = {savers: []};
-
 import {
   FETCH_NOTES,
   ADD_NOTE,
@@ -65,12 +62,10 @@ export const unselectNote = createAction(
 
 function makeNoteSaver(actionType, reducer) {
   return function saveNote(...args) {
-    const saver = (dispatch, getState) => {
+    return (dispatch, getState) => {
       dispatch(createAction(actionType, reducer)(...args));
       saveData(getState().notes.toJS());
     };
-    window.debug.noteActions.savers[actionType] = saver;
-    return saver;
   };
 }
 

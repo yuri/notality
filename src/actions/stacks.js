@@ -14,9 +14,6 @@ import {
   SET_NEW_STACK_NAME,
 } from '../constants';
 
-window.debug = window.debug || {};
-window.debug.stackActions = {savers: []};
-
 /*
  * Action creators.
  */
@@ -39,13 +36,11 @@ function fakeSaveData(data) {
 
 function makeStackSaver(actionType, reducer) {
   return (...args) => {
-    const saver = (dispatch, getState) => {
+    return (dispatch, getState) => {
       dispatch(createAction(actionType, reducer)(...args));
       console.log('Saving stack:', getState().stacks.toJS());
       fakeSaveData(getState().stacks.toJS());
     };
-    window.debug.stackActions.savers[actionType] = saver;
-    return saver;
   };
 }
 

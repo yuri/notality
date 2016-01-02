@@ -9,7 +9,7 @@
     "postinstall": "npm run clean; npm run build;",
     "build": "npm run clean; NODE_ENV=production webpack -p",
     "clean": "rimraf dist coverage",
-    "cover": "istanbul cover -x '*.test.js' _mocha -- --opts ./tests/mocha.opts tests/**/*.js src/**/*.js && istanbul check-coverage --lines=70",
+    "cover": "istanbul cover -x '*.test.js' _mocha -- --opts ./tests/mocha.opts tests/**/*.js src/**/*.js && istanbul check-coverage --lines=65",
     "dev": "nodemon server.js",
     "lint": "eslint .",
     "test": "npm run lint && mocha --opts ./tests/mocha.opts && npm run cover",
